@@ -1,13 +1,16 @@
 package jpabook.jpashop.domain;
 
 import jpabook.jpashop.domain.item.Item;
+import lombok.AccessLevel;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
 
 @Entity
 @Getter @Setter
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class OrderItem {
 
     @Id @GeneratedValue
@@ -25,6 +28,7 @@ public class OrderItem {
 
     private int orderPrice; //주문가격
     private int count; //주문 수량
+
 
     //--생성메서드--//
     public static OrderItem cereteOrderItem(Item item, int orderPrice, int count){
