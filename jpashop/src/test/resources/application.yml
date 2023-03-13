@@ -1,0 +1,21 @@
+spring:
+#  datasource:
+##    메모리 db사용 가능
+#    url: jdbc:h2:mem:test
+#    username: sa
+#    password:
+#    driver-class-name: org.h2.Driver
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: create
+#    properties:
+#      hibernate:
+##            show_sql: true
+#        format_sql: true
+# 스프링 부트는 별도의 설정이 없으면 메모리db로 동작함
+
+logging.level:
+  org.hibernate.SQL: debug
+  org.hibernate.type: trace
+#  파라미터값 보기 위한 설정
