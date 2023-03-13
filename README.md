@@ -1,7 +1,7 @@
-@@ -1,13 +1,10 @@
+
 ### 인프런 : 실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발
 
-First chioce for readme tamplets profile : 
+# 순수 jpa로 상품 주문사이트 제작
 
 ![banner](https://user-images.githubusercontent.com/23727056/87433896-78ae9700-c607-11ea-9ca6-9cdbe3f67998.jpg)
 
